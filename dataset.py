@@ -191,9 +191,11 @@ class DAEdataset_DC(BaseDataset):
             span_length = min(span_length,span_max_length-span_total_length)
             span_end = min(span_start+span_length,len(arr_list)-1)
             
-            arr_list_span = arr_list_span + arr_list[0:span_start]+[str(random.randint(9,1640))]
+            if random.random()<0.1:
+                arr_list_span = arr_list_span + arr_list[0:span_start]+[str(random.randint(9,1640))]
+            else:
+                arr_list_span = arr_list_span + arr_list[0:span_start]+[self.mask_token]
             
-            arr_list_span = arr_list_span + arr_list[0:span_start]+[self.mask_token]
             arr_list = temp_list[span_end:]
             span_total_length += span_length
 
