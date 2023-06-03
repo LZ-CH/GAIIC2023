@@ -1,5 +1,5 @@
 # 代码说明
-[GAIIC2023赛道一](https://www.heywhale.com/org/gaiic2023/competition/area/63fef766b4422ee27402289d/content) Rank-13方案代码。
+[GAIIC2023赛道一](https://www.heywhale.com/org/gaiic2023/competition/area/63fef766b4422ee27402289d/content) Rank-12方案代码。
 
 ## 赛题背景
 医学影像（如 CT 影像、核磁共振影像）是病情诊断的重要依据，通过医学影像得出诊断报告是针对过程中的重要步骤，也是医疗 AI 研究的前沿热点。本赛道任务要求参赛队伍根据医生对 CT 的影像描述文本数据（即对医学影像特征的描述），生成诊断报告文本。复赛阶段将额外引入临床诊断信息。
