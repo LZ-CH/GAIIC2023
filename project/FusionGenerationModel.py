@@ -180,7 +180,12 @@ class FusionGenerationModel(nn.Module,GenerationMixin):
         
         MODEL_LIST = {
             "bart-base-chinese-gaiic": [
-                "../checkpoint/bart-base/bart-base-MLM-DAE-Switch/bart-base-switch-avg.pt",
+                "../checkpoint/bart-base/bart-base-MLM-DAE-Switch/bart-base-switch-avg.pt"],
+            "cpt-base-gaiic":[
+                "../checkpoint/cpt-base/cpt-base-MLM-DAE-Switch/cpt-base-switch-avg.pt"
+            ],
+            "pegasus-base-gaiic":[
+                "../checkpoint/pegasus-base/pegasus-base-MLM-DAE-Switch/pegasus-base-switch-avg.pt"
             ],
         }
         self.WEIGHT = None
