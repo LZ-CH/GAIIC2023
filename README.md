@@ -33,6 +33,7 @@ pip install -r ./requirements.txt
 * 数据增广，对decoder的输入进行15%随机替换为其它词，以减少曝光偏差。
 
 ## 训练流程
+以下为bart单个模型的训练过程
 1. 进入工作目录
 ```
 cd GAIIC2023
