@@ -74,12 +74,15 @@ CUDA_VISIBLE_DEVICES=0 python model_swa_creat.py \
 
 更多模型训练示例可见train.sh
 ## 测试流程
+在project项目中包含推理过程以及融合代码,融合代码封装在FusionGenerationModel.py中，具体在1008行中对cpt模型的输入参数进行了特殊处理，其他的模型则相差无几
+
 单模测试示例:
 ```
 cd project
 python index.py
 ```
 相关融合可见test.sh
+
 
 ## Other
 第一次参加NLP的比赛，最终拿到Rank-12的排名，虽然没有拿到奖金，但过程中属实是学到了很多关于NLP的实践知识。cpt的训练是在复赛B榜时才匆忙训练的，导致后续还有2个CPT的模型没有提交上去进行融合，不然极有可能能够进到top-10的哈哈哈。
